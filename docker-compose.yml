@@ -41,7 +41,7 @@ services:
     restart: always
 
     ports:
-      - "80:80"
+      - "8082:8082"
       - "443:443"
     
     links:
